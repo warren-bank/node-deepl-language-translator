@@ -1,0 +1,27 @@
+-i en -o de -s Hello
+--------------------
+{
+  "--input-language": "en",
+  "--output-language": "de",
+  "--input-string": "Hello",
+  "--api-key": "MY_DEEPL_TRANSLATE_API_KEY"
+}
+
+-i xx -o de -s Hello
+--------------------
+{
+  "--input-language": "xx",
+  "--output-language": "de",
+  "--input-string": "Hello",
+  "--api-key": "MY_DEEPL_TRANSLATE_API_KEY"
+}
+
+-i en -o yy -s Hello
+--------------------
+{
+  "--input-language": "en",
+  "--output-language": "yy",
+  "--input-string": "Hello",
+  "--api-key": "MY_DEEPL_TRANSLATE_API_KEY"
+}
+

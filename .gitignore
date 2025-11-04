@@ -1,0 +1,4 @@
+node_modules/
+lib/deepl-language-translator/supported-languages/cache/*.json
+tests/DEEPL_TRANSLATE_API_CREDENTIALS.bat
+tests/DEEPL_TRANSLATE_API_CREDENTIALS.sh
