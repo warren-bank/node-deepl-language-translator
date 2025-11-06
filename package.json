@@ -1,6 +1,6 @@
 {
   "name": "@warren-bank/deepl-language-translator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/deepl-language-translator/index.js",
   "description": "Unofficial Node.js client library and CLI for a subset of the DeepL service API.",
   "license": "GPL-2.0",
