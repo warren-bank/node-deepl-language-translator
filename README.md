@@ -45,83 +45,225 @@ npm install @warren-bank/deepl-language-translator
 #### [Supported Input Languages](https://developers.deepl.com/docs/getting-started/supported-languages#translation-source-languages)
 
 * a real-time JSON array of supported language objects is returned from the [API](https://developers.deepl.com/api-reference/languages) endpoint: `/languages?type=source`
-* the following table summarizes this response: <small>(last updated on 11/03/2025)</small>
+* the following table summarizes this response: <small>(last updated on 02/25/2026)</small>
 
-| code | name       |
-|------|------------|
-| "AR" | Arabic     |
-| "BG" | Bulgarian  |
-| "ZH" | Chinese    |
-| "CS" | Czech      |
-| "DA" | Danish     |
-| "NL" | Dutch      |
-| "EN" | English    |
-| "ET" | Estonian   |
-| "FI" | Finnish    |
-| "FR" | French     |
-| "DE" | German     |
-| "EL" | Greek      |
-| "HU" | Hungarian  |
-| "ID" | Indonesian |
-| "IT" | Italian    |
-| "JA" | Japanese   |
-| "KO" | Korean     |
-| "LV" | Latvian    |
-| "LT" | Lithuanian |
-| "NB" | Norwegian  |
-| "PL" | Polish     |
-| "PT" | Portuguese |
-| "RO" | Romanian   |
-| "RU" | Russian    |
-| "SK" | Slovak     |
-| "SL" | Slovenian  |
-| "ES" | Spanish    |
-| "SV" | Swedish    |
-| "TR" | Turkish    |
-| "UK" | Ukrainian  |
+| code | name               |
+|------|--------------------|
+| "AF" | Afrikaans          |
+| "SQ" | Albanian           |
+| "AR" | Arabic             |
+| "AN" | Aragonese          |
+| "HY" | Armenian           |
+| "AS" | Assamese           |
+| "AY" | Aymara             |
+| "AZ" | Azerbaijani        |
+| "BA" | Bashkir            |
+| "EU" | Basque             |
+| "BE" | Belarusian         |
+| "BN" | Bengali            |
+| "BS" | Bosnian            |
+| "BR" | Breton             |
+| "BG" | Bulgarian          |
+| "MY" | Burmese            |
+| "CA" | Catalan            |
+| "ZH" | Chinese            |
+| "HR" | Croatian           |
+| "CS" | Czech              |
+| "DA" | Danish             |
+| "NL" | Dutch              |
+| "EN" | English            |
+| "EO" | Esperanto          |
+| "ET" | Estonian           |
+| "FI" | Finnish            |
+| "FR" | French             |
+| "GL" | Galician           |
+| "KA" | Georgian           |
+| "DE" | German             |
+| "EL" | Greek              |
+| "GN" | Guarani            |
+| "GU" | Gujarati           |
+| "HT" | Haitian Creole     |
+| "HA" | Hausa              |
+| "HE" | Hebrew             |
+| "HI" | Hindi              |
+| "HU" | Hungarian          |
+| "IS" | Icelandic          |
+| "IG" | Igbo               |
+| "ID" | Indonesian         |
+| "GA" | Irish              |
+| "IT" | Italian            |
+| "JA" | Japanese           |
+| "JV" | Javanese           |
+| "KK" | Kazakh             |
+| "KO" | Korean             |
+| "KY" | Kyrgyz             |
+| "LA" | Latin              |
+| "LV" | Latvian            |
+| "LN" | Lingala            |
+| "LT" | Lithuanian         |
+| "LB" | Luxembourgish      |
+| "MK" | Macedonian         |
+| "MG" | Malagasy           |
+| "MS" | Malay              |
+| "ML" | Malayalam          |
+| "MT" | Maltese            |
+| "MI" | Maori              |
+| "MR" | Marathi            |
+| "MN" | Mongolian          |
+| "NE" | Nepali             |
+| "NB" | Norwegian (bokmål) |
+| "OC" | Occitan            |
+| "OM" | Oromo              |
+| "PS" | Pashto             |
+| "FA" | Persian            |
+| "PL" | Polish             |
+| "PT" | Portuguese         |
+| "PA" | Punjabi            |
+| "QU" | Quechua            |
+| "RO" | Romanian           |
+| "RU" | Russian            |
+| "SA" | Sanskrit           |
+| "SR" | Serbian            |
+| "ST" | Sesotho            |
+| "SK" | Slovak             |
+| "SL" | Slovenian          |
+| "ES" | Spanish            |
+| "SU" | Sundanese          |
+| "SW" | Swahili            |
+| "SV" | Swedish            |
+| "TL" | Tagalog            |
+| "TG" | Tajik              |
+| "TA" | Tamil              |
+| "TT" | Tatar              |
+| "TE" | Telugu             |
+| "TH" | Thai               |
+| "TS" | Tsonga             |
+| "TN" | Tswana             |
+| "TR" | Turkish            |
+| "TK" | Turkmen            |
+| "UK" | Ukrainian          |
+| "UR" | Urdu               |
+| "UZ" | Uzbek              |
+| "VI" | Vietnamese         |
+| "CY" | Welsh              |
+| "WO" | Wolof              |
+| "XH" | Xhosa              |
+| "YI" | Yiddish            |
+| "ZU" | Zulu               |
 
 #### [Supported Output Languages](https://developers.deepl.com/docs/getting-started/supported-languages#translation-target-languages)
 
 * a real-time JSON array of supported language objects is returned from the [API](https://developers.deepl.com/api-reference/languages) endpoint: `/languages?type=target`
-* the following table summarizes this response: <small>(last updated on 11/03/2025)</small>
+* the following table summarizes this response: <small>(last updated on 02/25/2026)</small>
 
 | code      | name                     |
 |-----------|--------------------------|
+| "AF"      | Afrikaans                |
+| "SQ"      | Albanian                 |
 | "AR"      | Arabic                   |
+| "AN"      | Aragonese                |
+| "HY"      | Armenian                 |
+| "AS"      | Assamese                 |
+| "AY"      | Aymara                   |
+| "AZ"      | Azerbaijani              |
+| "BA"      | Bashkir                  |
+| "EU"      | Basque                   |
+| "BE"      | Belarusian               |
+| "BN"      | Bengali                  |
+| "BS"      | Bosnian                  |
+| "BR"      | Breton                   |
 | "BG"      | Bulgarian                |
+| "MY"      | Burmese                  |
+| "CA"      | Catalan                  |
 | "ZH"      | Chinese (simplified)     |
 | "ZH-HANS" | Chinese (simplified)     |
 | "ZH-HANT" | Chinese (traditional)    |
+| "HR"      | Croatian                 |
 | "CS"      | Czech                    |
 | "DA"      | Danish                   |
 | "NL"      | Dutch                    |
 | "EN-US"   | English (American)       |
 | "EN-GB"   | English (British)        |
+| "EO"      | Esperanto                |
 | "ET"      | Estonian                 |
 | "FI"      | Finnish                  |
 | "FR"      | French                   |
+| "GL"      | Galician                 |
+| "KA"      | Georgian                 |
 | "DE"      | German                   |
 | "EL"      | Greek                    |
+| "GN"      | Guarani                  |
+| "GU"      | Gujarati                 |
+| "HT"      | Haitian Creole           |
+| "HA"      | Hausa                    |
+| "HE"      | Hebrew                   |
+| "HI"      | Hindi                    |
 | "HU"      | Hungarian                |
+| "IS"      | Icelandic                |
+| "IG"      | Igbo                     |
 | "ID"      | Indonesian               |
+| "GA"      | Irish                    |
 | "IT"      | Italian                  |
 | "JA"      | Japanese                 |
+| "JV"      | Javanese                 |
+| "KK"      | Kazakh                   |
 | "KO"      | Korean                   |
+| "KY"      | Kyrgyz                   |
+| "LA"      | Latin                    |
 | "LV"      | Latvian                  |
+| "LN"      | Lingala                  |
 | "LT"      | Lithuanian               |
-| "NB"      | Norwegian                |
+| "LB"      | Luxembourgish            |
+| "MK"      | Macedonian               |
+| "MG"      | Malagasy                 |
+| "MS"      | Malay                    |
+| "ML"      | Malayalam                |
+| "MT"      | Maltese                  |
+| "MI"      | Maori                    |
+| "MR"      | Marathi                  |
+| "MN"      | Mongolian                |
+| "NE"      | Nepali                   |
+| "NB"      | Norwegian (bokmål)       |
+| "OC"      | Occitan                  |
+| "OM"      | Oromo                    |
+| "PS"      | Pashto                   |
+| "FA"      | Persian                  |
 | "PL"      | Polish                   |
 | "PT-BR"   | Portuguese (Brazilian)   |
 | "PT-PT"   | Portuguese (European)    |
+| "PA"      | Punjabi                  |
+| "QU"      | Quechua                  |
 | "RO"      | Romanian                 |
 | "RU"      | Russian                  |
+| "SA"      | Sanskrit                 |
+| "SR"      | Serbian                  |
+| "ST"      | Sesotho                  |
 | "SK"      | Slovak                   |
 | "SL"      | Slovenian                |
 | "ES"      | Spanish                  |
 | "ES-419"  | Spanish (Latin American) |
+| "SU"      | Sundanese                |
+| "SW"      | Swahili                  |
 | "SV"      | Swedish                  |
+| "TL"      | Tagalog                  |
+| "TG"      | Tajik                    |
+| "TA"      | Tamil                    |
+| "TT"      | Tatar                    |
+| "TE"      | Telugu                   |
+| "TH"      | Thai                     |
+| "TS"      | Tsonga                   |
+| "TN"      | Tswana                   |
 | "TR"      | Turkish                  |
+| "TK"      | Turkmen                  |
 | "UK"      | Ukrainian                |
+| "UR"      | Urdu                     |
+| "UZ"      | Uzbek                    |
+| "VI"      | Vietnamese               |
+| "CY"      | Welsh                    |
+| "WO"      | Wolof                    |
+| "XH"      | Xhosa                    |
+| "YI"      | Yiddish                  |
+| "ZU"      | Zulu                     |
 
 #### Library Examples:
 
